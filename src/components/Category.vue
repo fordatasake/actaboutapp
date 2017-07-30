@@ -110,13 +110,13 @@
 
         //..
         self.$http.post(`https://ff885bbf.ngrok.io/search`, {
-//          "category": categoryType,
-//          "lng": locationLat,
-//          "lat": locationLng
+          "category": categoryType,
+          "lng": locationLat,
+          "lat": locationLng
 
-          "lng": "149.13512299999999",
-          "lat": "-35.31656",
-          "category" : "Be Inspired"
+//          "lng": "149.13512299999999",
+//          "lat": "-35.31656",
+//          "category" : "Be Inspired"
         })
           .then(({ data }) => {
             // console.log('fetchData - res', data);
